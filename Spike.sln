@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spike", "Spike\Spike.csproj", "{D3233136-D910-4613-9BA7-4B28F5197B38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spike.Domain", "Spike.Domain\Spike.Domain.csproj", "{5B0B23F2-4DB1-45FD-9DEE-7D57742BC8F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spike.Tests", "Spike.Tests\Spike.Tests.csproj", "{0C15B2CB-AEAC-4FD5-9750-78199147E749}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spike.Framework", "Spike.Framework\Spike.Framework.csproj", "{1A4097C3-2976-4762-9422-53AD096633F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spike.Api", "Spike.Api\Spike.Api.csproj", "{68A9CF03-05BD-4578-9223-1B604D653FAF}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{BD973135-EFA2-4C1B-A56D-CBD52E3DD1D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spike.Infrastructure", "..\Spike.Infrastructure\Spike.Infrastructure.csproj", "{F359DD7B-2F8C-44EA-BFDD-ADD0536EFBB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3233136-D910-4613-9BA7-4B28F5197B38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3233136-D910-4613-9BA7-4B28F5197B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3233136-D910-4613-9BA7-4B28F5197B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3233136-D910-4613-9BA7-4B28F5197B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B0B23F2-4DB1-45FD-9DEE-7D57742BC8F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0B23F2-4DB1-45FD-9DEE-7D57742BC8F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0B23F2-4DB1-45FD-9DEE-7D57742BC8F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0B23F2-4DB1-45FD-9DEE-7D57742BC8F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C15B2CB-AEAC-4FD5-9750-78199147E749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C15B2CB-AEAC-4FD5-9750-78199147E749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C15B2CB-AEAC-4FD5-9750-78199147E749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C15B2CB-AEAC-4FD5-9750-78199147E749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A4097C3-2976-4762-9422-53AD096633F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4097C3-2976-4762-9422-53AD096633F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4097C3-2976-4762-9422-53AD096633F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4097C3-2976-4762-9422-53AD096633F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A9CF03-05BD-4578-9223-1B604D653FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A9CF03-05BD-4578-9223-1B604D653FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A9CF03-05BD-4578-9223-1B604D653FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A9CF03-05BD-4578-9223-1B604D653FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD973135-EFA2-4C1B-A56D-CBD52E3DD1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD973135-EFA2-4C1B-A56D-CBD52E3DD1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD973135-EFA2-4C1B-A56D-CBD52E3DD1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD973135-EFA2-4C1B-A56D-CBD52E3DD1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F359DD7B-2F8C-44EA-BFDD-ADD0536EFBB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F359DD7B-2F8C-44EA-BFDD-ADD0536EFBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F359DD7B-2F8C-44EA-BFDD-ADD0536EFBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F359DD7B-2F8C-44EA-BFDD-ADD0536EFBB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C52F78C-8283-4969-A52F-8524954E804C}
+	EndGlobalSection
+EndGlobal
